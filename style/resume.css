@@ -1,0 +1,246 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+body
+{
+    background: url(/images/pngtree-close-up-photo-of-dark-leaves-a-texture-background-in-moody-image_13699798.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mainContainer
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+    margin-left: 400px;
+}
+.mainContainer .left
+{
+    position: relative;
+    background:#003147;
+    padding: 40px;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.mainContainer .right
+{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.homeProfile
+{
+    height: 300px;
+    width: 300px;
+}
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.contactInfo.education li
+{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 700;
+}
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03e9f4;
+}
+.all
+{
+  display: flex;
+}
+.sidebar
+{
+    margin-top: 0;
+}
+.about
+{
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color:#003147 ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about p
+{
+    color: #333;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .knowledge
+{
+    min-width: 150px;
+}
+.about .box .knowledge h5{
+    text-transform: uppercase;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color:#848c99;
+    font-weight: 500;
+}
+.skills .box  .percent
+{
+    width: 100%;
+    height: 10px;
+    background: rgb(213, 213, 213);
+}
+.skills .box  .percent div
+{
+    position: relative;
+    top:0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+.interests
+{
+    margin-top: 100px;
+}
+.interests ul
+{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.interests ul li
+{
+    list-style: none;
+    color: #081921;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interests ul li .fa{
+    color: #081921;
+    font-size: 18px;
+    width: 20px;
+    margin-right: 10px;
+}
+.profile
+{
+    object-fit: cover;
+}
+.sidebar a:hover{
+    background:#03a9f4;
+  }

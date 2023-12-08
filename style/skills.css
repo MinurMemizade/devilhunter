@@ -1,0 +1,50 @@
+.mainContainer
+{
+    padding-right:0 ;
+    margin-right: 500px;
+}
+.left ul li
+{
+    list-style: none;
+    margin: 20px;
+}
+.left ul li h3
+{
+
+    margin: 20px;
+    margin-left: 45px;
+}
+.left ul li img
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+.right div ul li
+{
+    margin-top: 90px;
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+}
+body
+{
+    background: url(/images/pngtree-an-abstract-green-3d-image-of-a-wave-picture-image_2749820.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mainContainer .left
+{
+    position: relative;
+    background:#120a21e9;
+    padding: 40px;
+}
+.mainContainer .right
+{
+    background-color: rgb(0, 117, 117);
+}
+.sidebar a:hover{
+    background: #01efb7;;
+  }
